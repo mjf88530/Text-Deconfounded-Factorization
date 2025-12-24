@@ -3,6 +3,10 @@
 ## Overview
 This repository contains the implementation of the **Text-Deconfounded Factorization Model (TDFM)**, a probabilistic method for correcting selection bias in recommender systems. This project was developed for the **Probabilistic Models and Machine Learning** course (STCS 6701) at Columbia University.
 
+## Documentation
+* **[Final Report (PDF)](./STCS_6701_Final_Report.pdf)**: Detailed explanation of the generative process, derivation of the joint likelihood, and experimental results.
+* **[Project Poster (PDF)](./TDFM_Poster.pdf)**: Visual summary of the TDFM architecture, exposure surrogate approach, and key performance metrics.
+
 The model augments standard Matrix Factorization (MF) with:
 1.  **Topic Modeling**: A bag-of-words encoder to capture content preferences from review text.
 2.  **Exposure Surrogate**: A Poisson Factorization (PF) proxy to estimate exposure intensity and correct for Missing Not At Random (MNAR) data.
